@@ -1,5 +1,39 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+/* Center the header text */
+header h1 {
+  text-align: center;
+}
+
+/* Center the image */
+#featured-image {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the navigation links */
+nav a {
+  padding: 10px;
+  background-color: grey;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Style the image caption */
+#image-caption {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Center the text in the #featured-property paragraph */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Make the details section horizontal */
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: lightgrey;
 }
